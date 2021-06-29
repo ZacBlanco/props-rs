@@ -11,7 +11,7 @@
 //! key3=value3
 //! ";
 //! let parsed = parse(properties).unwrap();
-//! let properties = to_map(properties);
+//! let properties = to_map(parsed);
 //!
 //! assert_eq!("value1", properties.get("key1").unwrap());
 //! assert_eq!("value2", properties.get("key2").unwrap());
