@@ -1,5 +1,6 @@
 [package]
 name = "props-rs"
+description = "parse .properties files"
 version = "0.1.0"
 authors = ["Zac Blanco <zacdblanco@gmail.com>"]
 edition = "2018"
