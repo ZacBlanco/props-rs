@@ -22,7 +22,8 @@ jobs:
           toolchain: stable
       - uses: actions-rs/cargo@v1
         with:
-          command: fmt -- --check
+          command: fmt
+          args: -- --check
   clippy:
     runs-on: ubuntu-latest
     steps:
