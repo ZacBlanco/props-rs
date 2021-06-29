@@ -7,7 +7,7 @@ homepage = "https://github.com/ZacBlanco/props-rs"
 repository = "https://github.com/ZacBlanco/props-rs"
 license = "MIT"
 readme = "README.md"
-keywords = ["parser", "properties", ".properties"]
+keywords = ["parser", "properties", "dotproperties"]
 categories = ["parser-implementations", "config"]
 
 [dependencies]
