@@ -1,0 +1,12 @@
+[package]
+name = "props-rs"
+version = "0.1.0"
+authors = ["Zac Blanco <zacdblanco@gmail.com>"]
+edition = "2018"
+homepage = "https://github.com/ZacBlanco/props-rs"
+repository = "https://github.com/ZacBlanco/props-rs"
+license = "MIT"
+readme = "README.md"
+
+[dependencies]
+nom = "6"
