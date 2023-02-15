@@ -1,13 +1,12 @@
 # props-rs
 
-`props-rs` is a parser library which can parse Java `properties` file
+`props-rs` is a parser library which can parse Java `.properties` file
 definitions. This library is a fork and improvement of an older, unmaintained
 (and now, non-public) version of the
 [`dotproperties`](https://crates.io/crates/dotproperties) library on crates.io.
 
-It was modernized to use some more modern Rust features as well as use the
-latest `nom` parsing library.
-
+It was updated to use more modern Rust features as well as use the latest `nom`
+parsing library.
 
 ## Issues/Discussion
 
