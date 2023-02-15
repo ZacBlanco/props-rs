@@ -18,7 +18,7 @@
 //! assert_eq!("value3", properties.get("key3").unwrap());
 //! ```
 #![deny(missing_docs)]
-#![deny(missing_crate_level_docs)]
+#![deny(rustdoc::missing_crate_level_docs)]
 
 mod parser;
 pub use parser::Property;

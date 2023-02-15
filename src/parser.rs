@@ -157,7 +157,7 @@ pub fn parser(input: &[u8]) -> IResult<&[u8], Vec<Property>> {
 #[cfg(test)]
 mod test {
     use super::*;
-    use nom::dbg_dmp;
+    use nom::error::dbg_dmp;
 
     macro_rules! assert_done {
         ($t:expr, $v:expr) => {

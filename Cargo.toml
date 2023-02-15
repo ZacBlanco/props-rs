@@ -12,4 +12,4 @@ keywords = ["parser", "properties", "dotproperties"]
 categories = ["parser-implementations", "config"]
 
 [dependencies]
-nom = "6"
+nom = "7"
